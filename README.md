@@ -21,7 +21,7 @@
 
 | مستند | مسیر فایل | توضیح کوتاه | تهیه‌کننده | بازبین |
 |-------|-----------|-------------|----------|--------|
-| نمودار Use Case | [`docs/analysis/use-case.md`](docs/analysis/use-case.md) | شناسایی بازیگران و قابلیت‌های اصلی سیستم | امیرحسن عارف اصل | ارشیا همتی‌زاده |
+| سند User Stories | [`docs/analysis/user-story.md`](docs/analysis/user-story.md) | شناسایی بازیگران و قابلیت‌های اصلی سیستم | امیرحسن عارف اصل | ارشیا همتی‌زاده |
 | نمودار Activity | [`docs/analysis/activity.md`](docs/analysis/activity.md) | مدل‌سازی جریان کامل فرایند گزارش تا رفع خرابی | ارشیا همتی‌زاده | رضا آدوسی |
 | سند نیازمندی‌ها | [`docs/analysis/requirements-specification.md`](docs/analysis/requirements-specification.md) | نیازمندی‌های عملکردی و غیرعملکردی | رضا آدوسی | امیرحسن عارف اصل |
 | روش تحقیق و منابع | [`docs/research-and-sources.md`](docs/research-and-sources.md) | نحوهٔ تحقیق و منابع استفاده‌شده | همه اعضا | - |
