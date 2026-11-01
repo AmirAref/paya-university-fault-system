@@ -72,6 +72,29 @@ git push -u origin aref-tasks
 
 ---
 
+## ۶. رسم نمودار با Mermaid
+
+برای رسم نمودارها (مثل Class Diagram) از ابزار [Mermaid](https://mermaid.js.org/) استفاده کنید.  
+نمودار به‌صورت متن نوشته می‌شود، بنابراین تغییرات آن در Git قابل مشاهده و بازبینی است. گیت‌هاب این نمودارها را مستقیم در فایل‌های `.md` نمایش می‌دهد.
+
+مثال یک Class Diagram:
+
+```mermaid
+classDiagram
+    class Report {
+        +id: int
+        +status: string
+        +submit()
+    }
+    class Technician {
+        +name: string
+        +assign(report)
+    }
+    Technician "1" --> "*" Report : repairs
+```
+
+---
+
 ## نکات مهم
 
 - همیشه قبل از شروع کار جدید، آخرین تغییرات `CONTRIBUTINGmain` را بگیر:
